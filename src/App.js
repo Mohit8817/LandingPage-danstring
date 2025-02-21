@@ -1,13 +1,17 @@
 import './App.css';
+import { BrowserRouter } from "react-router-dom";
 import Home from './Pages/Home';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter basename="/Landing-page-danstring">
 
-      <Home />
+      <div className="App">
 
-    </div>
+        <Home />
+
+      </div>
+    </BrowserRouter>
   );
 }
 
