@@ -11,7 +11,6 @@ import Faq from '../Components/FAQ/Faq'
 const Home = () => {
   return (
     <div>
-
       <Banner />
       <Cards />
       <Compaines />
