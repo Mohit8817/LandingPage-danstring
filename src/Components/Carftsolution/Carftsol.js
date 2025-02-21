@@ -10,7 +10,7 @@ import shap_icon4 from '../../Accests/images/global.png'
 import shap_icon5 from '../../Accests/images/wallet.png'
 
 import bar from '../../Accests/images/bar.png'
-import card from '../../Accests/images/credit.png'
+// import card from '../../Accests/images/credit.png'
 
 const Carftsol = () => {
     return (

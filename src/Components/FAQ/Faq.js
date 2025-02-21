@@ -4,25 +4,26 @@ import React from 'react'
 const questions = [
     {
         id: 1,
-        question: 'Popular Articles',
-        answer: 'Suspendisse ipsum elit, hendrerit id eleifend at, condimentum et mauris. Curabitur et libero vel arcu dignissim pulvinar ut ac leo. In sit amet orci et erat accumsan interdum.',
+        question: 'Website Development Services',
+        answer: 'We specialize in building modern, responsive, and user-friendly websites tailored to your business needs. From corporate websites to e-commerce platforms, our solutions ensure seamless user experience.',
     },
     {
         id: 2,
-        question: 'Fix problems & request removals',
-        answer: 'Suspendisse ipsum elit, hendrerit id eleifend at, condimentum et mauris. Curabitur et libero vel arcu dignissim pulvinar ut ac leo. In sit amet orci et erat accumsan interdum.',
+        question: 'Website Maintenance & Support',
+        answer: 'Keep your website running smoothly with our maintenance services. We provide security updates, performance optimization, bug fixes, and regular backups to ensure a hassle-free experience.',
     },
     {
         id: 3,
-        question: 'Browse the web',
-        answer: 'Suspendisse ipsum elit, hendrerit id eleifend at, condimentum et mauris. Curabitur et libero vel arcu dignissim pulvinar ut ac leo. In sit amet orci et erat accumsan interdum.',
+        question: 'SEO & Digital Marketing',
+        answer: 'Enhance your online presence with our SEO and digital marketing strategies. We optimize your website for search engines, run targeted campaigns, and improve conversion rates to boost your business growth.',
     },
     {
         id: 4,
-        question: 'Search on your phone or tablet',
-        answer: 'Suspendisse ipsum elit, hendrerit id eleifend at, condimentum et mauris. Curabitur et libero vel arcu dignissim pulvinar ut ac leo. In sit amet orci et erat accumsan interdum.',
+        question: 'Custom Web Applications',
+        answer: 'Need a unique web solution? Our team develops custom web applications with the latest technologies to streamline your business processes and improve efficiency.',
     },
 ];
+
 
 const Faq = () => {
 
@@ -77,7 +78,7 @@ function Question({ id, question, answer }) {
     return (
         <div className="question-wrapper">
             <div className="question">
-                <h3>{question}</h3>
+                <h4 className='faq_que'>{question}</h4>
                 <button onClick={() => setActive(!isActive)} className='faqbtn'>
                     <svg
                         className={isActive ? 'active' : ''}

@@ -4,7 +4,7 @@ import Home from './Pages/Home';
 
 function App() {
   return (
-    <BrowserRouter basename="/Landing-page-danstring">
+    <BrowserRouter basename="/LandingPage-danstring">
 
       <div className="App">
 
