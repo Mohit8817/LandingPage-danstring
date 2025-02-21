@@ -16,22 +16,21 @@ const Carftsol = () => {
     return (
         <div>
             <div className="container">
-                <div className="row p-4">
+                <div className="row">
                     {/* text  */}
-                    <div className='row'>
-                        <div className="banner-content">
-                            <h1 className='craft_heading'> Crafting Solutions <br /> Tailored to You</h1>
-                            <p className="craft_para">
-                                At Codile, We take pride in offering a diverse range of solutions <br />
-                                meticulously crafted to meet your unique needs.
-                            </p>
-                        </div>
+                    <div className="banner-content">
+                        <h1 className='craft_heading'> Crafting Solutions <br /> Tailored to You</h1>
+                        <p className="craft_para">
+                            At Codile, We take pride in offering a diverse range of solutions
+                            meticulously crafted to meet your unique needs.
+                        </p>
                     </div>
+
 
                     {/* Left side col  */}
 
                     {/* cards row */}
-                    <div className="col-6">
+                    <div className="col-lg-6">
                         {/* big card  */}
                         <div className="craft_card">
                             <div className="img_wrapper">
@@ -41,8 +40,7 @@ const Carftsol = () => {
                                 Subscription
                             </h3>
                             <p className='craft_card_para'>
-                                time is valuable, and your needs are unique. That's why we Ive curated a subscription
-                                offering designed to enhance your experience and simplify your life.
+                                time is valuable, and your needs are unique. That's why we Ive curated a subscription                              offering designed to enhance your experience and simplify your life.
                             </p>
 
                             {/* tabs  */}
@@ -115,9 +113,9 @@ const Carftsol = () => {
                     {/* ------------------------------------ */}
 
 
-                    <div className="col-6">
+                    <div className="col-lg-6">
                         {/* small card  */}
-                        <div className="craft_card2 mt-0">
+                        <div className="craft_card2 craftcard22">
                             <div className="img_wrapper">
                                 <img src={shaped} alt="" className='iner_img' />
                             </div>
@@ -152,7 +150,9 @@ const Carftsol = () => {
                             </div>
                         </div>
 
-                        {/* big card  */}
+
+
+                        {/* big card 2  */}
                         <div className="craft_card mt-2">
                             <div className="img_wrapper">
                                 <img src={shaped} alt="" className='iner_img' />
@@ -162,11 +162,8 @@ const Carftsol = () => {
                                 Efficient Management
                             </h3>
                             <p className='craft_card_para'>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium.
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
                             </p>
-
-
 
                             {/* z-index small card  */}
 
@@ -188,6 +185,9 @@ const Carftsol = () => {
                                 </div>
                             </div>
 
+
+
+                            {/* inner card  */}
                             <div className="inr_card">
                                 <div>
                                     <h2 className="inr_card_title">
@@ -197,20 +197,21 @@ const Carftsol = () => {
                                         Planning & Goals
                                     </h2>
                                     <p className="inr_para_title">
-                                        Our strategic roadmaps provide a  roadmap for success,  <br /> outlining the steps  needed to reach your objectives.
+                                        Our strategic roadmaps provide a  roadmap for <br />success,  outlining the steps  needed to reach your objectives.
                                     </p>
                                 </div>
                                 {/* hr line */}
                                 <hr class="custom-hr"></hr>
                                 <div className='mt-4'>
+
                                     <h2 className="inr_card_title">
                                         <span className="icon-wrapper">
-                                            <img src={card} alt="" className='check-circle' />
+                                            <img src={bar} alt="" className='check-circle' />
                                         </span>
-                                        Resource Allocation and Optimization
+                                        Resource Allocation
                                     </h2>
                                     <p className="inr_para_title">
-                                        Our strategic roadmaps provide a roadmap for success, <br />     outlining the steps needed to reach your objectives.
+                                        Our strategic roadmaps provide a roadmap for success, outlining the steps needed to reach your objectives.
                                     </p>
                                 </div>
                             </div>
@@ -218,6 +219,9 @@ const Carftsol = () => {
                         </div>
 
                     </div>
+
+
+
                 </div>
             </div>
 

@@ -6,17 +6,15 @@ const Cards = () => {
     return (
         <div>
             <div className="container">
-                <div className="row text-center m-auto p-4">
+                <div className="row text-center m-auto">
                     <div className="col">
                         {/* card first  */}
-                        <div class="card">
+                        <div class="firstCard">
                             <p className='card_title'>Mastering the Art of <br />
                                 Digital Marketing</p>
                             <img src={innerimg} alt="" className='cardimg1' />
                             <p className="para_title">
-                                Program that goes beyond the basics,
-                                offering you a deep dive into the art and
-                                science of digital marketing.
+                                A program that goes beyond the basics, offering you a deep dive into the art and science of digital marketing. Explore cutting-edge strategies, master data-driven decision-making, and gain hands-on experience with real-world projects.
                             </p>
                             <button className='card_Btn'>Learn More
                                 <div class="arrow-wrapper">

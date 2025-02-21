@@ -1,13 +1,12 @@
 import React from 'react'
 
 
-import logo1 from '../../Accests/images/logo1.webp'
-import logo2 from '../../Accests/images/logo9.png'
-// import logo3 from '../../Accests/images/logo3.webp'
-import logo4 from '../../Accests/images/logo8.png'
-import logo5 from '../../Accests/images/logo5.png'
-import logo6 from '../../Accests/images/logo6.png'
-import logo7 from '../../Accests/images/logo7.png'
+import logo1 from '../../Accests/images/logo1 (1).png'
+import logo2 from '../../Accests/images/logo1 (2).png'
+import logo4 from '../../Accests/images/logo1 (3).png'
+import logo5 from '../../Accests/images/logo1 (4).png'
+import logo6 from '../../Accests/images/logo1 (5).png'
+import logo7 from '../../Accests/images/logo1 (7).png'
 
 const Compaines = () => {
     return (
@@ -34,8 +33,6 @@ const Compaines = () => {
             <div className="container-fluid">
                 <div className="row mt-0 pt-0">
                     <div className="Logo_div">
-                        {/* <div className="marquee"> */}
-                        {/* <div className="marquee-content"> */}
                         <div className="logo_col">
                             <img src={logo1} className="logo_img" alt="Logo 1" />
                         </div>
@@ -58,8 +55,7 @@ const Compaines = () => {
                 </div>
             </div>
         </div>
-        // </div>   
-        // </div>
+
     )
 }
 

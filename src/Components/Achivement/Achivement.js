@@ -29,7 +29,7 @@ const Achivement = () => {
                                 <img src={achiveimg} alt="" className='achive_img' />
                             </div>
                             <div>
-                                <p className='achive_c_para'>Excellence in <br />           Innovation Award</p>
+                                <p className='achive_c_para'>Excellence in <br />  Innovation Award</p>
                             </div>
                         </div>
 
@@ -83,6 +83,8 @@ const Achivement = () => {
                     </div>
 
                 </div>
+
+                
             </div>
         </div>
 

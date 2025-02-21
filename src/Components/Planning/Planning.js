@@ -6,7 +6,7 @@ import checked from '../../Accests/images/checked.png'
 const Planning = () => {
     return (
         <div>
-            <div className="container mb-5">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
                         <div>
@@ -16,7 +16,7 @@ const Planning = () => {
 
                         <div className='row'>
                             <div className="col-lg-6">
-                                <div class="P_card">
+                                <div class="P_card mb-2">
                                     <h2 className="p_card_title">
                                         <span className="icon-wrapper">
                                             <img src={checked} alt="" className='check-circle' />
@@ -50,7 +50,7 @@ const Planning = () => {
 
                         <div className='row mt-3'>
                             <div className="col-lg-6">
-                                <div class="P_card">
+                                <div class="P_card mb-2">
                                     <h2 className="p_card_title">
                                         <span className="icon-wrapper">
                                             <img src={checked} alt="" className='check-circle' />

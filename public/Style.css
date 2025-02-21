@@ -1,6 +1,14 @@
 /* General banner styles */
 
+:root {
+    --heading-color: #1c1c1c !important;
+    --font-size: 1.2rem;
+}
 
+
+/* heading color  */
+
+/* subheading color  */
 .banner {
     display: flex;
     justify-content: center;
@@ -24,17 +32,14 @@
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    /* font-weight: 800px !important; */
     letter-spacing: 3px;
 }
 
 .banner-subtitle {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
-    color: #787878;
+    color: var(--heading-color);
 }
-
-
 
 .imgicon {
     width: 25%;
@@ -141,25 +146,16 @@ button:hover .arrow:before {
 
 
 
+/* Small devices (phones, 576px and up)-------------------- */
+
+@media only screen and (max-width: 768px) {
 
 
-
-/* Responsive styles */
-@media (max-width: 768px) {
-    .banner-title {
-        font-size: 2.5rem;
+    .banner {
+        margin: 0;
+        padding: 8px;
     }
 
-    .banner-subtitle {
-        font-size: 1.2rem;
-    }
-
-    .banner-button {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 480px) {
     .banner-title {
         font-size: 2rem;
     }
@@ -169,10 +165,19 @@ button:hover .arrow:before {
     }
 
     .banner-button {
-        font-size: 0.8rem;
+        font-size: 0.2rem;
         padding: 8px 16px;
     }
+
+    button,
+    .btn2 {
+        padding: 0.4em 1.3em;
+        font-size: 12px;
+        gap: 0.6rem;
+    }
 }
+
+
 
 
 
@@ -183,11 +188,9 @@ button:hover .arrow:before {
 
 
 
-/* From Uiverse.io by adamgiebl */
-
-.card {
-    width: 300px;
-    height: 254px;
+.firstCard {
+    width: 350px;
+    height: 460px;
     border-radius: 20px !important;
     border: 0px !important;
     background: #f8f8f8 !important;
@@ -207,13 +210,14 @@ button:hover .arrow:before {
 
 .para_title {
     text-align: left;
-    color: #787878;
+    color: var(--heading-color);
+
     font-size: 15px;
-    padding: 5px 0 0 18px;
+    padding: 8px 0 0 18px;
 }
 
 .cardimg1 {
-    width: 100%;
+    width: 70%;
     margin: 0;
     padding: 0;
 }
@@ -274,6 +278,45 @@ button:hover .arrow:before {
     padding: 5px 0 0 18px;
 }
 
+
+/* small divice */
+@media only screen and (max-width: 768px) {
+
+    .firstCard {
+        width: 300px;
+        height: 470px;
+    }
+
+    .card_Btn {
+        width: 10rem;
+    }
+
+    .card_img_2 {
+        margin-top: 1.5rem;
+        margin-left: 0;
+        width: 300px;
+        height: 350px;
+        border-radius: 20px;
+        box-shadow: 0 3px 7px rgba(90, 90, 90, 0.2);
+    }
+
+    .card3 {
+        width: 310px;
+        height: 280px;
+        margin: 1.5rem 0 10px 0 !important;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
 /* -------------------SVG ICON --------------------------- */
 
 .icon-wrapper {
@@ -330,20 +373,6 @@ button:hover .arrow:before {
 
 
 
-@media (max-width: 480px) {
-    .card_img_2 {
-        margin: 0;
-        padding: 0;
-        width: 300px;
-        height: 470px;
-        border-radius: 20px;
-        box-shadow: 0 3px 7px rgba(90, 90, 90, 0.2);
-    }
-
-}
-
-
-
 
 /* ------------------------------------------ */
 /* Companies componet css  */
@@ -358,16 +387,18 @@ button:hover .arrow:before {
     font-optical-sizing: auto;
     font-style: normal;
     color: #000000;
-    /* font-weight: 800px !important; */
     letter-spacing: 2px;
 }
 
 .comp_para {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
-    color: #787878;
-
+    color: var(--heading-color);
 }
+
+
+
+/* logo container  */
 
 .container {
     width: 100%;
@@ -401,46 +432,38 @@ button:hover .arrow:before {
     filter: grayscale(0);
 }
 
-/* .Logo_div {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-    background: #f8f9fa; 
-    } */
 
-/* .marquee {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-}
 
-.marquee-content {
-    display: flex;
-    animation: marquee 50s linear infinite;
-}
-
-.marquee-content:hover {
-    animation-play-state: paused; 
-}
-
-@keyframes marquee {
-    0% {
-        transform: translateX(20%);
+/* small divice */
+@media only screen and (max-width: 768px) {
+    .Logo_div {
+        display: inline !important;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 5px;
     }
-    100% {
-        transform: translateX(-100%);
+
+
+    .logo_img {
+        max-width: 170px;
+        height: 90px;
+        height: auto;
+        cursor: pointer;
+        margin: 15px;
+        filter: grayscale(100%);
     }
 }
 
- */
 
 
+/* Medium devices (tablets, 768px and up)---------------- */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .Logo_div {
+        display: inline !important;
+    }
 
-
-
+}
 
 
 
@@ -449,6 +472,11 @@ button:hover .arrow:before {
 /* ----------------------------------- */
 /* tab CSS here  */
 /* ----------------------------------- */
+
+.tab_left_img {
+    width: 80%;
+}
+
 .tab_heading {
     font-size: 3.5rem;
     font-weight: normal;
@@ -462,9 +490,9 @@ button:hover .arrow:before {
 }
 
 .tab_para {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 30px;
-    color: #787878;
+    color: var(--heading-color);
     text-align: left;
 
 }
@@ -583,6 +611,43 @@ button:hover .arrow:before {
 
 
 
+/* small divice */
+@media only screen and (max-width: 768px) {
+
+    .tab_heading {
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .tab_para {
+        text-align: center;
+    }
+
+    .inputmaindiv {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+
+    }
+
+    .radio-input label {
+        width: 300px;
+
+    }
+
+    .radio-input .label .text {
+        font-size: 15px;
+        color: #000000;
+        font-family: "Work Sans", sans-serif;
+    }
+
+}
+
+
+
+
+
+
 /* -------------------------------------------------- */
 /* planning components CSS  */
 /* -------------------------------------------------- */
@@ -635,6 +700,15 @@ button:hover .arrow:before {
 
 
 
+/* small divice */
+@media only screen and (max-width: 768px) {
+    .plan_img {
+        padding: 20px 0 0 0;
+        width: 100%;
+    }
+}
+
+
 
 
 /* ---------------------------------- */
@@ -657,7 +731,7 @@ button:hover .arrow:before {
 .craft_para {
     font-size: 0.9rem;
     margin-bottom: 30px;
-    color: #787878;
+    color: var(--heading-color);
 
 }
 
@@ -684,7 +758,7 @@ button:hover .arrow:before {
     color: black;
     font-family: "Work Sans", sans-serif;
     font-weight: 500;
-    padding: 10px 0 0 18px;
+    padding: 10px 0 0 17px;
 }
 
 .craft_card_para {
@@ -872,6 +946,10 @@ button:hover .arrow:before {
     border-radius: 15px;
 }
 
+.craftcard22 {
+    margin-top: 0 !important;
+}
+
 .craft_img_wrapper {
     width: 90px;
     height: 90px;
@@ -934,14 +1012,14 @@ button:hover .arrow:before {
 
 .small_card {
     width: 200px;
-    height: 150px;
+    height: 120px;
     border-radius: 20px !important;
     border: 0px !important;
     background: #ffffff !important;
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    padding: 20px 0 0 0;
+    padding: 8px 0 0 0;
     margin: 0 0 0 63%;
     position: absolute;
     z-index: 1000;
@@ -1030,6 +1108,106 @@ button:hover .arrow:before {
 
 
 
+/* small divice */
+@media only screen and (max-width: 768px) {
+    .craft_heading {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .craft_card {
+        position: relative;
+        margin: auto;
+        width: 320px;
+        height: 620px;
+        padding: 15px 0 0 0;
+    }
+
+    .notification {
+        width: 18rem;
+    }
+
+    .notititle {
+        font-size: 18px;
+    }
+
+    .notibody {
+        font-size: 13px;
+    }
+
+    .craft_card2 {
+        width: 320px;
+        height: 310px;
+        margin: auto !important;
+        margin-top: 10px !important;
+    }
+
+    .craftcard22 {
+        margin-top: 2rem !important;
+    }
+
+    .craft_img_wrapper {
+        width: 38px;
+        height: 38px;
+        display: flex;
+        margin: -5px 10px 0 15px;
+        box-shadow: 2px 2px 8px 0 #b6b6b6;
+    }
+
+    .craf_iner_img {
+        /* font-size: 25px !important; */
+        width: 25px;
+    }
+
+    .inr_card {
+        width: 305px;
+        height: 340px;
+        margin: auto;
+
+    }
+
+    .small_card {
+        /* width: 305px;
+        height: 120px;
+        margin: auto !important;
+        position: absolute;
+        z-index: 1000;
+        top: 35.5rem;
+        box-shadow: 0 3px 7px rgba(75, 75, 75, 0.2); */
+        display: none;
+
+    }
+
+    .small_noti {
+        display: flex;
+        flex-direction: column;
+        isolation: isolate;
+        position: relative;
+        width: 17rem;
+        height: 4rem;
+        background: #f2f2f2;
+        border-radius: 1rem;
+        font-family: "Work Sans", sans-serif;
+        overflow: hidden;
+        text-align: left;
+        font-size: 16px;
+        padding: 0 0 12px;
+        margin: 0 0 0 10px;
+        cursor: pointer;
+        --gradient: linear-gradient(to bottom, #2eadff, #3d83ff);
+        --color: #32a6ff
+    }
+
+}
+
+
+
+
+
+
+
+
+
 /* [-----------------------------] */
 /* Achivement  */
 /* [-----------------------------] */
@@ -1050,7 +1228,7 @@ button:hover .arrow:before {
 .Achiv_para {
     font-size: 0.9rem;
     margin-bottom: 5rem;
-    color: #787878;
+    color: var(--heading-color);
 
 }
 
@@ -1098,10 +1276,49 @@ button:hover .arrow:before {
     font-size: 0.8rem;
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
-    color: #878787;
+    color: var(--heading-color);
     text-align: center;
 
 }
+
+/* Responsive Design */
+@media (max-width: 992px) { /* Tablets */
+    .Achiv_div {
+        gap: 15px;
+    }
+    .achive_img {
+        width: 200px;
+        height: 200px;
+    }
+    .achive_head {
+        font-size: 20px;
+    }
+    .achive_c_para {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    .Achiv_div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .achive_img {
+        width: 150px;
+        height: 170px;
+    }
+    .achive_head {
+        font-size: 18px;
+    }
+    .achive_c_para {
+        font-size: 14px;
+    }
+} 
+
+
+
+
+
 
 
 
@@ -1206,7 +1423,7 @@ form svg {
     display: flex;
     font-size: 1rem;
     font-weight: 500;
-    
+
     /* color: var(--primary-text-color); */
     justify-content: space-between;
 }
@@ -1268,21 +1485,20 @@ button:focus {
         transform: translateY(0%);
 
 
-    --body: #fff;
-    --black: #000;
-    --white: #fff;
-    --theme: #F39F5F;
-    --theme2: #70A6B1;
-    --header: #385469;
-    --text: #5C707E;
-    --text-2: #ffffffcc;
-    --border: #E5E5E5;
-    --border2: #242449;
-    --border3: #5262FF;
-    --bg: #F4EEE5;
-    --bg2: #EFF5F6;
-    --bg3: #70A6B1;
-    --box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06); 
+        --body: #fff;
+        --black: #000;
+        --white: #fff;
+        --theme: #F39F5F;
+        --theme2: #70A6B1;
+        --header: #385469;
+        --text: #5C707E;
+        --text-2: #ffffffcc;
+        --border: #E5E5E5;
+        --border2: #242449;
+        --border3: #5262FF;
+        --bg: #F4EEE5;
+        --bg2: #EFF5F6;
+        --bg3: #70A6B1;
+        --box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
     }
 }
-

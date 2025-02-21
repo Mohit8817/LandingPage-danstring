@@ -19,7 +19,7 @@ const Home = () => {
       <Planning />
       <Carftsol />
       <Achivement />
-      <Faq/>
+      <Faq />
 
     </div>
   )

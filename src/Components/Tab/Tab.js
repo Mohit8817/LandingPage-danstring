@@ -1,22 +1,24 @@
 import React from 'react'
 
+import leftimg from '../../Accests/images/tableftimg.png'
+
 const Tab = () => {
     return (
         <div>
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col-lg-6">
+                        {/* left img  */}
+                        <img src={leftimg} alt="" className='tab_left_img' />
                     </div>
 
                     <div className="col-lg-6">
-
-                        <div>
+                        <div className=''>
                             <h2 className='tab_heading'>Content Creation and Marketing</h2>
                             <p className='tab_para'>strategic thinkers collaborates to craft compelling narratives that not  <br /> only captivate your audience but also drive meaningful engagement.</p>
                         </div>
 
-
-                        <div className='mb-5 pb-5'>
+                        <div className=' inputmaindiv'>
                             <div class="radio-input">
                                 <label class="label">
                                     <input type="radio" id="value-1" name="value-radio" value="value-1" />
@@ -36,13 +38,8 @@ const Tab = () => {
                                     <p class="text">Measurable Results</p>
                                 </label>
                             </div>
-
-                            
-
-
-
-
                         </div>
+
                     </div>
                 </div>
             </div>
