@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/LandingPage-danstring/static/css/main.f855e6bc.css",
+    "main.js": "/LandingPage-danstring/static/js/main.4685d7e2.js",
+    "static/js/453.c59cba2a.chunk.js": "/LandingPage-danstring/static/js/453.c59cba2a.chunk.js",
+    "static/media/cardimg2.png": "/LandingPage-danstring/static/media/cardimg2.df160b8b784875855816.png",
+    "static/media/planimg.png": "/LandingPage-danstring/static/media/planimg.fc44b19c0d3abae3a394.png",
+    "static/media/newimg22.png": "/LandingPage-danstring/static/media/newimg22.df19c7eabd24f796ea20.png",
+    "static/media/tableftimg.png": "/LandingPage-danstring/static/media/tableftimg.f4eba4c2b7ee4870dd85.png",
+    "static/media/cardinnerimg.png": "/LandingPage-danstring/static/media/cardinnerimg.1d92d8d6113fb67e3093.png",
+    "static/media/nnnnnnn.png": "/LandingPage-danstring/static/media/nnnnnnn.f6d1aee91d23b3246614.png",
+    "static/media/logo1 (7).png": "/LandingPage-danstring/static/media/logo1 (7).a8d8bf5f154f7365f904.png",
+    "static/media/logo1 (1).png": "/LandingPage-danstring/static/media/logo1 (1).3caa944de84019490de9.png",
+    "static/media/Achivementimg.png": "/LandingPage-danstring/static/media/Achivementimg.d6c1f134715a82899195.png",
+    "index.html": "/LandingPage-danstring/index.html",
+    "main.f855e6bc.css.map": "/LandingPage-danstring/static/css/main.f855e6bc.css.map",
+    "main.4685d7e2.js.map": "/LandingPage-danstring/static/js/main.4685d7e2.js.map",
+    "453.c59cba2a.chunk.js.map": "/LandingPage-danstring/static/js/453.c59cba2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.4685d7e2.js"
+  ]
+}
